@@ -11,7 +11,7 @@ Application contains client folder which contains all the UI components which in
 
 2. The homepage shows the list of user names on clicking the username a modal popup will displayed which shows activity logs of the users
 
-3. To get the users List a simple GET api is built using nodeJs which reads a json file and sends that json data as the response
+3. To get the users List a simple GET api is built using expressJS which reads a json file and sends that json data as the response
 
 4. To start the application  i have used concurrently npm package which starts and Frontend and  backend concurrently 
 
