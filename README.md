@@ -15,4 +15,4 @@ Application contains client folder which contains all the UI components which in
 
 4. To start the application  i have used concurrently npm package which starts and Frontend and  backend concurrently 
 
-# use npm run dev to run the application
+# use npm install && npm run dev to run the application
