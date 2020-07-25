@@ -65,13 +65,13 @@ const handlePasswordChange = (e) => {
 const handleLoginSubmit = (e) => {
     e.preventDefault();
     let hardcodedCred = {
-        email: 'email@email.com',
-        password: 'password123'
+        email: 'admin@gmail.com',
+        password: 'admin123'
     }
     if ((emailInput == hardcodedCred.email) && (passwordInput == hardcodedCred.password)) {
-        // const authToken = '123456abcdef';
-        // sessionStorage.setItem('auth-token', authToken);
-        // if (sessionStorage.getItem('auth-token') == authToken) 
+        const authToken = '123456abcdef';
+        sessionStorage.setItem('auth-token', authToken);
+        if (sessionStorage.getItem('auth-token') == authToken) 
             history.push('/users');
         
     } else {
