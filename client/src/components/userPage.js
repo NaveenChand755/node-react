@@ -23,7 +23,6 @@ class UserPage extends Component {
   };
 
   handleClose = (e) => {
-    e.stopPropagation();
     this.setState({
       show: false,
     });
